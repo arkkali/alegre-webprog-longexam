@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", sans-serif;
+}
+
+@layer base {
+  /* This ensures the browser MUST use the font */
+  html, body {
+    font-family: "Space Grotesk", sans-serif !important;
+    @apply bg-[#0c0e2f] antialiased;
+  }
+}
