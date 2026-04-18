@@ -26,11 +26,10 @@ const ProductListPage = () => {
           </div>
         </div>
 
-        {/* Background Ambient Glow */}
+    
         <div className="absolute top-0 right-0 -z-10 h-64 w-64 rounded-full bg-blue-600/10 blur-[100px]" />
       </section>
 
-      {/* PRODUCT GRID SECTION */}
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12">

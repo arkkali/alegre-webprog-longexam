@@ -33,17 +33,13 @@ const SignUpPage = () => {
 
   return (
     <>
-      {/* COLUMN 1: THE IMAGE (Occupies the left 50%) */}
       <div className="hidden lg:block relative h-full w-full overflow-hidden">
         <img
           src={signupImg}
           alt="Sign Up"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
-        {/* OVERLAY REMOVED: Image is now 100% original brightness */}
       </div>
-
-      {/* COLUMN 2: THE FORM (Occupies the right 50%) */}
       <div className="flex items-center justify-center p-8 sm:p-12 bg-[#0c0e2f]">
         <div className="w-full max-w-md bg-white/5 backdrop-blur-xl p-8 rounded-3xl border border-white/10">
           <h1 className="text-3xl font-black text-white">Create Account</h1>

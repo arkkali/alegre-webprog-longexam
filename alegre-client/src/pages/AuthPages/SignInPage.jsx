@@ -28,7 +28,6 @@ const SignInPage = () => {
           alt="Sign In"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
-        {/* FILTERS REMOVED */}
       </div>
 
       <div className="flex items-center justify-center p-8 sm:p-12 bg-[#0c0e2f]">

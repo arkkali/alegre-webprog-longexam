@@ -32,7 +32,6 @@ const routes = [
       { path: "signup", element: <SignUpPage /> }
     ],
   },
-  // ADDED THIS: Global Catch-all for paths outside layouts
   { path: '*', element: <NotFoundPage /> },
 ];
 

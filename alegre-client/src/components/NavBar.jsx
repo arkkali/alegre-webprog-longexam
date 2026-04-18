@@ -27,7 +27,6 @@ const NavBar = () => {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
-        {/* Logo Section */}
         <NavLink to="/" className="flex items-center gap-3">
           <img
             src={logo}
@@ -35,14 +34,11 @@ const NavBar = () => {
             className="h-9 w-9 rounded-full border border-white/10 bg-white/10 object-contain"
           />
           <div className="space-y-0.5">
-            {/* font-bold + tracking-tighter + italic makes this font pop */}
             <p className="text-xl font-bold italic text-white tracking-tighter uppercase">
               Bulldogs Exchange
             </p>
           </div>
         </NavLink>
-
-        {/* Main Navigation */}
         <nav className="hidden items-center gap-2 md:flex">
           {links.map((link) => (
             <NavLink
@@ -56,7 +52,6 @@ const NavBar = () => {
           ))}
         </nav>
 
-        {/* Auth Navigation */}
         <div className="flex items-center gap-3">
           <NavLink to="/auth/signin" className={authLinkClassName}>
             Sign In

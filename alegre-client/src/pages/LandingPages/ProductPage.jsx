@@ -6,12 +6,10 @@ function ProductPage() {
   const { name } = useParams();
   const product = products.find((product) => product.name === name);
 
-  // ONLY ADDED THIS: Force a redirect to a non-existent path for the burger test
   if (name === "burger-steak") {
     return <Navigate to="/404-not-found" replace />;
   }
 
-  // YOUR ORIGINAL "NOT FOUND" UI (UNTOUCHED)
   if (!product) {
     return (
       <div className="flex min-h-[70vh] w-full flex-col items-center justify-center bg-[#0c0e2f] text-zinc-100 px-6">
@@ -31,7 +29,6 @@ function ProductPage() {
     );
   }
 
-  // YOUR ORIGINAL PRODUCT UI (UNTOUCHED)
   return (
     <div className="flex w-full flex-col bg-[#0c0e2f] text-zinc-100">
       <section className="relative border-b border-white/10 py-7 px-4 sm:px-3 lg:px-3">

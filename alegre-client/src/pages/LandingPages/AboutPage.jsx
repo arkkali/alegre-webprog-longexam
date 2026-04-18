@@ -1,8 +1,6 @@
 import React from 'react';
 import { useLocation } from "react-router-dom";
 import Button from '../../components/Button';
-
-// Asset Imports
 import aboutPageImg from '../../assets/img/aboutPage.jpg';
 import about1 from '../../assets/img/about1.jpg';
 import about2 from '../../assets/img/about2.jpg';
@@ -47,8 +45,7 @@ const AboutPage = () => {
       <section className="relative px-4 py-10 sm:px-6 lg:px-8 border-b border-white/10 bg-gradient-to-b from-[#0c0e2f] to-[#12153d]">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-            
-            {/* Image Container - FIXED ONLY THIS PART */}
+           
             <div className="relative group">
               <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-600 to-blue-400 opacity-25 blur transition duration-1000 group-hover:opacity-50"></div>
               <div className="relative h-64 w-full overflow-hidden rounded-3xl border border-white/10 bg-zinc-900">

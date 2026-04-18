@@ -4,9 +4,8 @@ const NotFoundPage = () => {
   return (
     <div className="flex min-h-[calc(80vh-74px)] w-full flex-col items-center justify-center gap-6 px-1 bg-[#0c0e2f]">
       
-      {/* Main 404 Hero Section */}
       <section className="relative w-full max-w-4xl overflow-hidden rounded-[2.5rem] border border-zinc-800 bg-[#12122b] p-8 sm:p-20 text-center shadow-2xl">
-        {/* Pink Glow Decoration */}
+  
         <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-pink-500/10 blur-[100px]" />
         
         <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.4em] text-pink-500/80">

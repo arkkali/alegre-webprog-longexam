@@ -16,8 +16,6 @@ const ProductCard = ({ product, index }) => {
           </div>
         )}
         
-    
-      {/* CONTENT AREA */}
       <div className="mt-6 flex flex-col flex-grow">
         <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-blue-400/80">
           {product.category}
@@ -35,7 +33,6 @@ const ProductCard = ({ product, index }) => {
           {product.content[0]}
         </p>
 
-        {/* ACTION: Full width primary button for better clickability */}
         <div className="mt-auto pt-6">
           <Button 
             to={`/products/${product.name}`} 
